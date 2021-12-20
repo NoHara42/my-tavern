@@ -20,9 +20,9 @@ const LayoutWrapper = ({ children }: Props) => {
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
-                <div className="mr-3">
+                <div className=" mr-3">
                   <Image
-                    src="/public/static/images/VisionForgeIcon.png"
+                    src="/static/images/vision-forge-icon.png"
                     alt="Vision Forge Logo"
                     width={100}
                     height={100}
