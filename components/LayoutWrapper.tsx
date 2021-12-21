@@ -20,12 +20,12 @@ const LayoutWrapper = ({ children }: Props) => {
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
-                <div className=" mr-3">
+                <div className="mr-5">
                   <Image
                     src="/static/images/vision-forge-icon.png"
                     alt="Vision Forge Logo"
-                    width={100}
-                    height={100}
+                    width={50}
+                    height={55}
                   />
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
