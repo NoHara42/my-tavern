@@ -6,8 +6,7 @@ const colors = require('tailwindcss/colors')
 
 /** @type {import("tailwindcss/tailwind-config").TailwindConfig } */
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.tsx', './components/**/*.tsx', './layouts/**/*.tsx', './lib/**/*.ts'],
+  content: ['./pages/**/*.tsx', './components/**/*.tsx', './layouts/**/*.tsx', './lib/**/*.ts'],
   darkMode: 'class',
   theme: {
     extend: {
@@ -24,8 +23,12 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        current: 'currentColor',
         primary: colors.teal,
-        gray: colors.trueGray,
+        gray: colors.neutral,
+        green: colors.emerald,
+        yellow: colors.amber,
+        purple: colors.violet,
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -151,9 +154,6 @@ module.exports = {
         },
       }),
     },
-  },
-  variants: {
-    typography: ['dark'],
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }

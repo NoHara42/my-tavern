@@ -1,8 +1,8 @@
 const siteMetadata = {
   title: "Ned's Tavern",
   author: "Ned O'Hara",
-  headerTitle: 'Tech Tavern',
-  description: 'A blog about ideas.',
+  headerTitle: "Ned's Tavern",
+  description: 'Where ideas drink.',
   language: 'en-gb',
   siteUrl: 'https://my-tavern.vercel.app/',
   siteRepo: 'https://github.com/NoHara42/my-tavern',
